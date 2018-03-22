@@ -1,0 +1,139 @@
+body{	
+	margin: 0px;
+	background: #f0ede1;
+}
+
+h2{
+	margin: 10px;
+}
+
+#myform{
+	margin: 10px;
+	border: 1px solid grey;
+	background: #9ea3b8;
+}
+
+#integral{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	display: inline;
+}
+
+#closeImage{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+#closeImage:hover{
+    opacity: 0.7;
+}
+
+input{
+	height: 20px;
+	padding: 5px 10px 4px;
+}
+
+#inputup{
+	margin-left: 5px;
+	width: 60px;
+}
+
+#inputdown{
+	margin-left: 5px;
+	width: 60px;
+}
+
+#inputcenter{
+	top: 56px;
+	display: inline;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.send-to-server{
+	background: #505050;
+	color: #fff;
+	border: 1px solid #505050;
+	cursor: pointer;
+	height: 30px;
+	margin: 5px;
+	width: 90px;
+	text-align: center;
+}
+
+.send-to-server:hover{
+	background: #475d71;
+}
+
+.toggle_example{
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+}
+
+.toggle_example span{
+	margin-right: 10px;
+	cursor: pointer;
+	color: rgb(28, 158, 32);
+}
+
+.toggle_example span:hover{
+	margin-right: 10px;
+	cursor: pointer;
+	color: #040ad4;
+}
+
+label{
+	font-size: 25px;
+}
+
+#modal{
+	width: 350px;
+	height: 200px;
+	background: #236d7e;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px;
+	display: none;
+	cursor: -webkit-grab;
+}
+
+#modal:active{
+	cursor:-webkit-grabbing;
+}
+
+#canvas{
+    margin-left: 15px;
+}
+
+#answer{
+	height: 200px;
+	background: #9ea3b800;
+	display: flex;
+	font-size: 20px;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#integreal1{
+	margin: 0px;
+	display: inline;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Определенный интеграл онлайн.</title>
+		<link href="styles.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<script src="jquery-3.3.1.js"></script> <!--Сначала jquery, потом scripts(т.к. scripts использует jquery)-->
+		<script src="scripts.js"></script>
+	</head>
+	
+	<body>
+		<div id="myform">		
+			<h2 class="trigger">Определенный интеграл</h2>
+			
+			<div>		
+				<input id="inputup" type="text" name="inputup" value="10">
+				
+				<div style="display:flex">
+					<img id="integral" src="integral.png" width="33" height="80" alt="">
+					<input id="inputcenter" type="text" name="input" value="sin(x)" class="text-input">
+					<div style="margin-top:auto; margin-bottom:auto; padding:5px">dx</div>
+				</div>
+				
+				<input id="inputdown" type="text" name="inputdown" value="0">							
+			</div>
+			
+			<div class="toggle_example">
+				<span onclick="example(1)">Пример 1</span>
+				<span onclick="example(2)">Пример 2</span>
+				<span onclick="example(3)">Пример 3</span>
+				<span onclick="example(4)">Пример 4</span>
+				<span onclick="example(5)">Пример 5</span>
+			</div>
+			
+			<button id="button" class="send-to-server" style="margin-left:15px">Посчитать</button>
+		</div>
+		
+		<div id="modal">
+			<canvas id="canvas" width="200px" height="200px"></canvas>
+			<img id="closeImage" src="close.png"> 
+			
+			<div id="answer">
+				<div id="top_bound" style="margin-left:10px">5</div>			
+				<img id="integral1" src="integral.png" width="33" height="80" alt="">
+				<div id="center_bound" style="position: absolute; left: 35px">f(x) dx</div>	
+				<div id="bottom_bound" style="margin-left:10px">0</div>		 
+			</div>
+			
+		</div>		
+		
+<!-- 		<button id="testbutton">Check ls_sleep_test</button>
+		<div id="testdiv">undefined0</div> -->	
+		
+	</body>
+	
+	
+</html>
+
+
+
+
+
+
